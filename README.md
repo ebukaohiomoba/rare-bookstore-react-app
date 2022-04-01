@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Rare Books - React Inventory Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview: A business, Rare Books, needs a way of viewing their inventory and tracking their inventory. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Managers should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the book list, add new book, edit preexisting books, and delete book
+- View grid of employees, add new employee, and delete employee
 
-### `npm run build`
+### Log In
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Manager - Email: manager@rarebooks.com; Password: 12345
+- Employee - Email: employee@rarebooks.com; Password: 67890
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshot
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](images/landingpage.png "Screenshot of landing page")
+![alt text](images/login.png "Log In screen")
+![alt text](images/managerwelcome.png "Manager welcome screen")
+![alt text](images/books.png "Manager book screen")
+![alt text](images/employees.png "Manager employee screen")
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Solution URL: [My solution](https://github.com/ebukaohiomoba/rare-bookstore-app)
+- Live Site URL: [My live site](https://ebukaohiomoba.github.io/rare-bookstore-app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## My process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Javascript ES6
+- CSS custom properties
+- Flexbox
+- CRUD operations
+- Semantic HTML5 markup
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I learned
 
-### Code Splitting
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+My next step is to transform this project into a React app. The objectives would remain the same as well as the final product, but it will be built using React. Furthermore, as I grow comforatble with making API calls, I will be linking the book and employee tables to databases where the tables will be populated by a database. 
 
-### Advanced Configuration
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Example resource 1](https://www.freecodecamp.org/news/a-step-by-step-guide-to-getting-started-with-html-tables-7f43b18f962b/) - This helped me with HTML tables with providing a good baseline 
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Twitter - [@eohiomoba](https://www.twitter.com/eohiomoba)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+
+I would like to thank the amazing TechBridge program including the instructors and the teaching assistants that provided help and mentorship for me as I put this project together. This has been a long journey to getting this project ready, and I am thankful to my TechBridge community for providing me with guidance throughout the program. 
