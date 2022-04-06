@@ -6,12 +6,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginForm from './components/signin';
 import UserTable from './components/usertable';
-
+import Title from './components/navbar';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <Title />
     <UserTable />
   </React.StrictMode>,
   document.getElementById('root')
