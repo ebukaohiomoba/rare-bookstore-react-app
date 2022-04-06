@@ -12,7 +12,7 @@ import UserTable from './components/usertable';
 
 ReactDOM.render(
   <React.StrictMode>
-  <LoginForm />
+    <UserTable />
   </React.StrictMode>,
   document.getElementById('root')
 );
