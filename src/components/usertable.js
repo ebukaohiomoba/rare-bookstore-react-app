@@ -9,6 +9,7 @@ const [books, setBooks] = useState(data);
 
     return (
         <div className = "user-table">
+            <h1>Our Inventory</h1>
             <table> 
                 <thead>
                 <tr>
